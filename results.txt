@@ -1,0 +1,9 @@
+{"scn":2703475,"tm":1699420125000000000,"c_scn":2703475,"c_idx":1,"xid":"0x000a.009.0000029e","payload":[{"op":"begin"}]}
+{"c_scn":2703475,"c_idx":2,"xid":"0x000a.009.0000029e","payload":[{"op":"c","schema":{"owner":"USR1","table":"ADAM1"},"after":{"ID":1,"NAME":"Adam Leszczyński","COUNT":10,"START_TIME":1564662896000000000}}]}
+{"c_scn":2703475,"c_idx":3,"xid":"0x000a.009.0000029e","payload":[{"op":"commit"}]}
+{"scn":2703476,"tm":1699420126000000000,"c_scn":2703484,"c_idx":1,"xid":"0x0001.005.0000027b","payload":[{"op":"begin"}]}
+{"c_scn":2703484,"c_idx":2,"xid":"0x0001.005.0000027b","payload":[{"op":"u","schema":{"owner":"USR1","table":"ADAM1"},"before":{"ID":1,"COUNT":10},"after":{"ID":1,"COUNT":11}}]}
+{"c_scn":2703484,"c_idx":3,"xid":"0x0001.005.0000027b","payload":[{"op":"commit"}]}
+{"scn":2703485,"tm":1699420126000000000,"c_scn":2703487,"c_idx":1,"xid":"0x000a.015.0000029e","payload":[{"op":"begin"}]}
+{"c_scn":2703487,"c_idx":2,"xid":"0x000a.015.0000029e","payload":[{"op":"d","schema":{"owner":"USR1","table":"ADAM1"},"before":{"ID":1,"NAME":"Adam Leszczyński","COUNT":11,"START_TIME":1564662896000000000}}]}
+{"c_scn":2703487,"c_idx":3,"xid":"0x000a.015.0000029e","payload":[{"op":"commit"}]}
